@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9</LangVersion>
+    <RootNamespace>BazarJok.Services.Identity</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BazarJok.Contracts.Dto\UrbanDream.Contracts.Dtos.csproj" />
+    <ProjectReference Include="..\UrbanDream.Contracts.Options\UrbanDream.Contracts.Options.csproj" />
+    <ProjectReference Include="..\UrbanDream.DataAccess.Models\UrbanDream.DataAccess.Models.csproj" />
+    <ProjectReference Include="..\UrbanDream.DataAccess.Providers\UrbanDream.DataAccess.Providers.csproj" />
+  </ItemGroup>
+
+</Project>
